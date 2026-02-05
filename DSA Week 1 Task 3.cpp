@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[4] = {1, 2, 3, 4};
+    int n = 4;
+
+    cout << "Reversed Array: ";
+    for (int i = 3 ; i >= 0; i--) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}
